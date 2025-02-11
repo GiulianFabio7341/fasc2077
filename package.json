@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "ajv": "^7.2.4"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.7.2"
   }
 }

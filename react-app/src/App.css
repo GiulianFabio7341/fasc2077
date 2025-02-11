@@ -1,38 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bad+Script&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&family=Potta+One&family=Quicksand:wght@300..700&family=Sixtyfour+Convergence&display=swap');
+
 .App {
+  font-family: "Potta One", serif;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #222127, #2F1A23);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+
+
+.App-header {
+  background: linear-gradient(to right, #222127, #2F1A23);
+  height: 20vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header button {
+  background: linear-gradient(to right, #222127, #2F1A23);
+  cursor: pointer;
+  border: solid 4px white;
+  height: 5vh;
+  width: 3vw;
+  border-radius: 10px;
+  margin: 4vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header button:hover {
+  background: linear-gradient(to right, rgb(0, 0, 0),rgb(0, 0, 0));
+  cursor: pointer;
+  border: solid 4px rgb(0, 0, 0);
+  height: 5vh;
+  width: 3vw;
+  border-radius: 10px;
+  margin: 4vw;
+}
+
+header h2 {
+  margin: 0;
+}
+
+div .navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+main div{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main button{
+  background-color: #A72A03;
+  color: white;
+  height: 5vh;
+  width: 10vw;
+  cursor: pointer;
+  border: hidden;
+  font-family: "Potta One", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+footer button{
+  background-color: #22514E;
+  color: white;
+  height: 5vh;
+  width: 10vw;
+  cursor: pointer;
+  border: hidden;
+  font-family: "Potta One", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+
+footer{
+  color: white;
 }

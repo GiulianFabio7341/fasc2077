@@ -96,6 +96,85 @@ footer button{
 }
 
 
-footer{
-  color: white;
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+  .App {
+    height: auto;
+  }
+
+  .App-header {
+    font-size: calc(12px + 2vmin);
+    height: 40vh;
+  }
+
+  main {
+    flex-direction: column;
+    justify-content: flex-start; /* Para que as seções comecem no topo */
+    flex-grow: 1; /* Isso faz o main ocupar o restante do espaço */
+    margin-bottom: 20px;
+  }
+
+  main div {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  header button {
+    width: 15vw;
+    margin: 2vw;
+  }
+
+  main button {
+    width: 70vw;
+    height: 8vh;
+    font-size: 16px;
+  }
+
+  footer button {
+    width: 70vw;
+    height: 8vh;
+    font-size: 16px;
+  }
+}
+
+/* Responsividade para telas muito pequenas (celulares em modo retrato) */
+@media (max-width: 480px) {
+  .App {
+    height: auto;
+  }
+
+  .App-header {
+    font-size: calc(14px + 2vmin);
+    height: 30vh;
+  }
+
+  main {
+    flex-direction: column;
+    justify-content: flex-start; /* Para que as seções comecem no topo */
+    flex-grow: 1; /* Isso faz o main ocupar o restante do espaço */
+    margin-bottom: 20px;
+  }
+
+  main div {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+
+  header button {
+    width: 20vw;
+    margin: 1vw;
+  }
+
+  main button {
+    width: 80vw;
+    height: 10vh;
+    font-size: 18px;
+  }
+
+  footer button {
+    width: 80vw;
+    height: 10vh;
+    font-size: 18px;
+  }
 }
